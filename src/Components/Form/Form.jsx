@@ -1,6 +1,6 @@
 // components
 import { Input } from '../Input/Input.jsx'
-import { SubmitBtn } from '../SubmitButton/SubmitButton.jsx';
+import { SubmitBtn } from '../Button/Button.jsx';
 //  styles
 import styles from './Form.module.css'
 
@@ -12,7 +12,7 @@ export const Form = () => {
                 <Input type="text" placeholder="email"/>
                 <Input type="password" placeholder="password"/>
                 
-                <SubmitBtn text="login" />
+                <SubmitBtn text='login' type="submit" alt="login button" value="Login" className="submit_btn" />
             </form>
         </>
        
